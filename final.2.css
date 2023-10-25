@@ -40,13 +40,25 @@ a:hover {
     border-radius: 20px;
 }
 
+h1{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px; 
+    border-radius: 30px;   
+}
+p{
+    margin:3px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size:20px;
+
+}
 .flex-container1 {
     display: flex;
     justify-content: space-around;
-}
-
-.flex-item1 {
-    background-color: blueviolet;
+    background-color: #011638;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 30px;
@@ -55,9 +67,10 @@ a:hover {
     text-align: center;
 }
 
+
 .flex-item1 h1 {
     line-height: 75px;
-    font-size: 2em; /* Adjust font size */
+    font-size: 2px; /* Adjust font size */
 }
 
 .flex-item1 p {
@@ -75,31 +88,26 @@ a:hover {
     margin-bottom: 10px; /* Adjust margin */
     border-radius: 30px;
 }
-
-.flex-item2b {
+.flex-container2{
     height: auto;
     background-color: blue;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     border-radius: 30px;
-    padding: 10px; /* Adjust padding */
+    padding: 10px; 
+}
+.flex-container3 {
+    height: auto;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border-radius: 30px;
+    padding: 10px; 
 }
 
-.flex-item2b h3 {
-    font-size: 1.2vw; /* Adjust font size */
-}
 
-.flex-item2b p {
-    font-size: 15vw; /* Adjust font size */
-}
 
-.flex-item6 {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    flex: 35%;
-    padding: 10px; /* Adjust padding */
-}
+
 footer{text-align:center;
 background-color:#F7F3E3;
   color:#0c3357;
